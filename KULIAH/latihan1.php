@@ -4,7 +4,7 @@ $conn = mysqli_connect('localhost', 'root', '', 'sttmandala');
 
 
 // Query isi tabel mahasiswa
-mysqli_query($conn, "SELECT * FROM user mahasiswa")
+mysqli_query($conn, "SELECT * FROM user user")
 // ubah data ke dalam array
 
 // tampung ke variable mahasiswa
